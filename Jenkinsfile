@@ -15,7 +15,7 @@ pipeline {
 
     stage('Deloy website') {
       steps {
-        sh "$PWD/scripts/deploy_website.sh"
+        sh "scripts/deploy_website.sh"
       }
     }
   }
